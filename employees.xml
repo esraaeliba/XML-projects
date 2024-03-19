@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE employeesList SYSTEM "./employess.dtd">
+<?xml-stylesheet type="text/css" href="emp.css"?>
+
+<employeesList>
+	<employee>
+        <name>Name: Esraa Ahmed</name>
+        <phones>
+            <phone type="home">Home: 4355140</phone>
+            <phone type="mobile">Mobile: 01156149108</phone>
+        </phones>
+        <addresses>
+            <address>
+                <Street>Street :50 street</Street>
+                <BuildingNumber>Building Number : 11</BuildingNumber>
+                <Region>Region : West</Region>
+                <City>City : Alexancria</City>
+                <Country>Country : Alexandria</Country>
+            </address>
+             <address>
+                <Street>Street : 11 street</Street>
+                <BuildingNumber>Building Number : 3</BuildingNumber>
+                <Region>Region : east</Region>
+                <City>City : Alexancria</City>
+                <Country>Country : Alexandria</Country>
+            </address>
+        </addresses>
+        <email>Email : esraaeliba@example.com</email>
+    </employee>
+    
+    <employee>
+        <name>Name: salmaayman</name>
+        <phones>
+            <phone type="home">Home: 3544223</phone>
+            <phone type="mobile">Mobile: 01077668854</phone>
+        </phones>
+        <addresses>
+            <address> 
+                <Street>Street :naal wa handsa street</Street>
+                <BuildingNumber>Building Number :23</BuildingNumber>
+                <Region>Region : east</Region>
+                <City>City : Alexancria</City>
+                <Country>Country : Alexandria</Country>
+            </address>
+        </addresses>
+        <email>Email : salmaayman@example.com</email>
+    </employee>
+    
+    
+</employeesList>

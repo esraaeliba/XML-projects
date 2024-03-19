@@ -1,0 +1,14 @@
+<!ELEMENT employeesList (employee+)>
+<!ELEMENT employee (name, phones, addresses, email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phones (phone+, phone+)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (home | mobile) #REQUIRED>
+<!ELEMENT addresses (address+)>
+<!ELEMENT address (Street*, BuildingNumber*, Region*, City?, Country?)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT BuildingNumber (#PCDATA)>
+<!ELEMENT Region (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
