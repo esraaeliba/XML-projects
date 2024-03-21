@@ -1,50 +1,46 @@
-<?xml version="1.0"?>
-<!DOCTYPE employeesList SYSTEM "./employess.dtd">
-<?xml-stylesheet type="text/css" href="emp.css"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
 
-<employeesList>
-	<employee>
-        <name>Name: Esraa Ahmed</name>
-        <phones>
-            <phone type="home">Home: 4355140</phone>
-            <phone type="mobile">Mobile: 01156149108</phone>
-        </phones>
-        <addresses>
-            <address>
-                <Street>Street :50 street</Street>
-                <BuildingNumber>Building Number : 11</BuildingNumber>
-                <Region>Region : West</Region>
-                <City>City : Alexancria</City>
-                <Country>Country : Alexandria</Country>
-            </address>
-             <address>
-                <Street>Street : 11 street</Street>
-                <BuildingNumber>Building Number : 3</BuildingNumber>
-                <Region>Region : east</Region>
-                <City>City : Alexancria</City>
-                <Country>Country : Alexandria</Country>
-            </address>
-        </addresses>
-        <email>Email : esraaeliba@example.com</email>
-    </employee>
-    
-    <employee>
-        <name>Name: salmaayman</name>
-        <phones>
-            <phone type="home">Home: 3544223</phone>
-            <phone type="mobile">Mobile: 01077668854</phone>
-        </phones>
-        <addresses>
-            <address> 
-                <Street>Street :naal wa handsa street</Street>
-                <BuildingNumber>Building Number :23</BuildingNumber>
-                <Region>Region : east</Region>
-                <City>City : Alexancria</City>
-                <Country>Country : Alexandria</Country>
-            </address>
-        </addresses>
-        <email>Email : salmaayman@example.com</email>
-    </employee>
-    
-    
-</employeesList>
+<employeeList>
+  <employee>
+    <name>Omar</name>
+    <phones>
+      <phone type="home">123</phone>
+      <phone type="work">456</phone>
+      <phone type="mobile">789</phone>
+    </phones>
+    <address>
+      <street>mostafa Kamel</street>
+      <building>10</building>
+      <number>2</number>
+      <region>Smoha</region>
+      <city>Alex</city>
+      <country>EG</country>
+    </address>
+    <email>omar@gmail.com</email>
+  </employee>
+  <employee>
+    <name>Ahmed</name>
+    <phones>
+      <phone type="home">321</phone>
+    </phones>
+    <address>
+      <city>Cairo</city>
+      <country>EG</country>
+    </address>
+    <email>ahmed@gmail.com</email>
+  </employee>
+  <employee>
+    <name>Ali</name>
+    <phones>
+      <phone type="work">654</phone>
+      <phone type="mobile">987</phone>
+    </phones>
+    <address>
+      <region>Gleem</region>
+      <city>Alex</city>
+      <country>EG</country>
+    </address>
+    <email>ali@gmail.com</email>
+  </employee>
+</employeeList>
